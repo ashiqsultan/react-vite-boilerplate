@@ -1,4 +1,4 @@
-# Project Name
+# React Boilerplate (Vite, Tailwind, TypeScript, ESLint, Prettier)
 
 ## Usage
 
