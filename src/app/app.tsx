@@ -1,3 +1,5 @@
+import { Button } from '@/components/ui/button';
+
 function App() {
   return (
     <>
@@ -12,12 +14,7 @@ function App() {
           <p className='mb-10 max-w-screen-lg text-lg font-medium text-gray-300 sm:mb-11 sm:text-xl'>
             AppDescription
           </p>
-
-          <section className='mx-auto grid max-w-screen-lg grid-cols-10 gap-4 xl:max-w-screen-xl'>
-            <button className='col-span-5 w-full rounded-lg bg-purple-400 px-6 py-4 font-bold text-white hover:bg-purple-500 sm:w-auto'>
-              Get Started
-            </button>
-          </section>
+          <Button className='bg-purple-400'>Shadcn Button</Button>
         </div>
       </main>
       <footer className='mx-auto max-w-screen-lg pb-16 text-center font-bold text-gray-400 sm:text-right xl:max-w-screen-xl'></footer>
